@@ -1,24 +1,22 @@
-# README
+# Rails Journal
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Idea
 
-Things you may want to cover:
+- This project is something I have been thinking up for quite some time, a way of
+  journalling in a simpler and quicker fashion in a web based environment
 
-* Ruby version
+- The main reason I am undertaking this project is to learn more about rails
+  and what makes it tick
 
-* System dependencies
+## Dependencies
 
-* Configuration
+- Ruby version 3.3.6
+- Rails version 8.0.1
+- SQLite version 3.45.1
 
-* Database creation
+# Pending Features
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- [ ] User creation
+- [ ] Journal Entries
+- [ ] Per Page Entry view (Not all entries at once)
+- [ ] User session
