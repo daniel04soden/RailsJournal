@@ -18,26 +18,29 @@
     <link rel="apple-touch-icon" href="/icon.png">
 
     <%# Includes all stylesheet files in app/assets/stylesheets %>
+    <%= stylesheet_link_tag "tailwind", "inter-font", "data-turbo-track": "reload" %>
     <%= stylesheet_link_tag :app, "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
   </head>
 
   <body>
     <header>
-    <h1>Soden Journalling</h1>
-    <h2>Powered By Rails</h2>
+      <h1>Soden Journalling</h1>
+      <h2>Powered By Rails</h2>
       <nav>
         <a href="/">Home</a>
         <a href="/home/howto">How to Journal</a>
-    </header>
+        <a href="/home/users/register">Register For an account</a>
+        <a href="/home/users/login">Login</a>
       </nav>
-      <main>
-        <div class="container">
-          <%= yield %>
-        </div>
+    </header>
+    <main>
+      <div>
+        <%= yield %>
+      </div>
     </main>
     <footer>
-      
+
     </footer>
   </body>
 </html>
